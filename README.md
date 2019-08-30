@@ -20,7 +20,7 @@ A zipped TSV file of variants is available in /data/variants.tsv.zip. Each row i
 
 
 ## Workflow
-\
+```
 +--------------+                 +-----------------+
 |              |   HTTP request  |                 |
 |  FrontEnd    |   Autocomplete  |                 |
@@ -30,15 +30,15 @@ A zipped TSV file of variants is available in /data/variants.tsv.zip. Each row i
 |              +---------------->+                 |
 |              |   HTTP request  |                 |
 +--------------+   Get list      +-----------------+
-\
+```
 
 NOTE: All the development was made on Ubuntu 18.04.3 LTS x86_64
 
 ## Implementation
-\
+```
 Backend     --> Python
 Frontend    --> React
-\
+```
 Our expectation is you will be writing some server code, client code, and applying some basic styling to create a working web application. The application should include unit tests.
 
 Here’s an example of how you might group and display the information:
@@ -50,14 +50,14 @@ Here’s an example of how you might group and display the information:
 ![the result](./Screenshot.png)
 
 ## File directory
-\
+```
 ├── backend        --> backend app
 │   └── vsca
 ├── frontend        --> frontend app
 │   └── vsca
 ├── README.md        --> this file
 └── Screenshot.png    --> a screanshot of the aplication working
-\
+```
 
 ## Usage
 
